@@ -26,13 +26,10 @@ export const Skills = (props: TechnicalSkillsProps) => {
                                     {skill.frameWork}
                                 </li>
                             </ul>
-                        </div>
-                        
-                    </div>
-                    
+                        </div>                        
+                    </div>                    
                 )
-            })}
-           
+            })}           
         </div>
     )
 }
