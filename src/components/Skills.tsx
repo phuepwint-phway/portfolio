@@ -1,8 +1,7 @@
+import { Skill } from './Person.types'
+
 type TechnicalSkillsProps = {
-    skills: {
-        language: string
-        frameWork: string
-    }[]
+    skills: Skill[]
 }
 
 export const Skills = (props: TechnicalSkillsProps) => {
@@ -23,10 +22,11 @@ export const Skills = (props: TechnicalSkillsProps) => {
                         <div className="col-md-6">
                             <ul>
                                 <li>
-                                    {skill.frameWork}
+                                    {skill.framework}
                                 </li>
                             </ul>
-                        </div>                        
+                        </div>
+                        <br /><br /><br />                    
                     </div>                    
                 )
             })}           
