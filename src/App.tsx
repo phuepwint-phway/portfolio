@@ -10,6 +10,7 @@ import { Input } from './components/Input';
 import { Container } from './components/Container';
 import { LoggedIn } from './components/state/LoggedIn';
 import { User } from './components/state/User'
+import { User2 } from './components/state/User2'
 
 function App() {
 
@@ -53,6 +54,7 @@ function App() {
             <Container styles={{ border: '2px solid black', padding: '4rem 2rem 4rem 2rem' }} />
             <LoggedIn />
             <User />
+            <User2 />
         </div>
     )
 }
