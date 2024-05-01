@@ -5,7 +5,7 @@ type AuthUser = {
     email: string
 }
 
-export const User = () => {
+export const User1 = () => {
     const [user, setUser] = useState<AuthUser | null>(null) //important ***
 
     const handleLogIn = () => {

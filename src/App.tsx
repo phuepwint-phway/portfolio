@@ -9,12 +9,14 @@ import { Button } from './components/Button';
 import { Input } from './components/Input';
 import { Container } from './components/Container';
 import { LoggedIn } from './components/state/LoggedIn';
-import { User } from './components/state/User';
+import { User1 } from './components/state/User1';
 import { User2 } from './components/state/User2';
 import { Counter } from './components/state/Counter';
 import { Counter2 } from './components/state/Counter2';
 import { ThemeContextProvider } from './components/context/ThemeContext';
 import { Box } from './components/context/Box';
+import { User } from './components/context/User';
+import { UserContextProvider} from './components/context/UserContext';
 
 function App() {
 
@@ -57,13 +59,16 @@ function App() {
             {/* the above input field is not typing, Why! */}
             <Container styles={{ border: '2px solid black', padding: '4rem 2rem 4rem 2rem' }} />
             <LoggedIn />
-            <User />
+            <User1 />
             <User2 />
             <Counter />
             <Counter2 />
             <ThemeContextProvider>
                 <Box />
             </ThemeContextProvider>
+            <UserContextProvider>
+                <User />
+            </UserContextProvider>
         </div>
     )
 }
