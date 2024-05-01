@@ -25,7 +25,8 @@ export const Skills = (props: TechnicalSkillsProps) => {
                                     {skill.framework}
                                 </li>
                             </ul>
-                        </div>                        
+                        </div>
+                        <br /><br /><br />                    
                     </div>                    
                 )
             })}           

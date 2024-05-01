@@ -4,6 +4,9 @@ type HeadingProps = {
 
 export const Heading = (props: HeadingProps) => {
     return (
-        <h2>{props.children}</h2>
+        <div>
+            <h2>{props.children}</h2>
+            <br /><br /><br />
+        </div>
     )
 }

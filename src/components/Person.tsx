@@ -5,6 +5,7 @@ export const Person = (props: PersonProps) => {
         <div>
             <h4>{props.detail.title}</h4>
             <p>{props.detail.description}</p>
+            <br /><br /><br />
         </div>
     )
 }

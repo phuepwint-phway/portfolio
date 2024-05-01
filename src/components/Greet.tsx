@@ -10,6 +10,7 @@ export const Greet = (props: GreetProps) => {
         <div>
             <h1>{props.name}</h1> 
             <h2>{props.isLoggedIn ? `${props.messageCount}` : `10` }</h2>
+            <br /><br /><br />
         </div>
     )
 }
