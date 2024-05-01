@@ -8,6 +8,7 @@ import { Oscar } from './components/Oscar';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
 import { Container } from './components/Container';
+import { LoggedIn } from './components/state/LoggedIn';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
             <Input value='' handleChange={event => console.log(event)}  />
             {/* the above input field is not typing, Why! */}
             <Container styles={{ border: '2px solid black', padding: '4rem 2rem 4rem 2rem' }} />
+            <LoggedIn />
         </div>
     )
 }
