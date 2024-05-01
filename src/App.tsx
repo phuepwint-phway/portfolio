@@ -14,15 +14,15 @@ function App() {
     const technicalSkills = [
         {
             language: 'Ruby',
-            frameWork: 'Ruby on Rails'
+            framework: 'Ruby on Rails'
         },
         {
             language: 'PHP',
-            frameWork: 'Laraval'
+            framework: 'Laraval'
         },
         {
             language: 'Javascript',
-            frameWork: 'React'
+            framework: 'React'
         }
     ]
  
