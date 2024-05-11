@@ -19,7 +19,7 @@ export const MutableRef = () => {
 
     return (
         <div>
-            HookTimer - {timer} - 
+            HookTimer - {timer} -  &nbsp;&nbsp;&nbsp;&nbsp; 
             <button onClick={() => stopTimer()}>Stop Timer</button>
             <br /><br /><br />
         </div>

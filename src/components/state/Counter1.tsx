@@ -26,12 +26,12 @@ function reducer(state: CounterState, action: CounterAction) {
     }
 }
 
-export const Counter = () => {
+export const Counter1 = () => {
     const [state, dispatch] = useReducer(reducer, initialState)
     return (
         <div>
             <>
-                Count: {state.count}
+                Count1: {state.count}
                 <br />
                 <button onClick={() => dispatch({ type: 'increment', payload: 10 })}>
                     Increment 10

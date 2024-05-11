@@ -11,7 +11,7 @@ import { Container } from './components/Container';
 import { LoggedIn } from './components/state/LoggedIn';
 import { User1 } from './components/state/User1';
 import { User2 } from './components/state/User2';
-import { Counter } from './components/state/Counter';
+import { Counter1 } from './components/state/Counter1';
 import { Counter2 } from './components/state/Counter2';
 import { ThemeContextProvider } from './components/context/ThemeContext';
 import { Box } from './components/context/Box';
@@ -63,7 +63,7 @@ function App() {
             <LoggedIn />
             <User1 />
             <User2 />
-            <Counter />
+            <Counter1 />
             <Counter2 />
             <ThemeContextProvider>
                 <Box />
