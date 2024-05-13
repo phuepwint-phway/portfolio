@@ -83,6 +83,11 @@ function App() {
                 items={['Batman', 'Superman', 'Wonder Woman']}
                 onClick={(item) => console.log(item)}
             />
+            <List 
+                items={[1, 2, 3]}
+                onClick={(item) => console.log(item)}
+            />
+            // List for Object array 
         </div>
     )
 }
